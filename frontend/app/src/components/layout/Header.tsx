@@ -44,9 +44,9 @@ const Header = () => {
     <AppBar position="absolute">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          // ここから変更（アイコンを変更）
+          {/* // ここから変更（アイコンを変更） */}
           <LocationOnIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
-          // ここまで変更
+          {/* // ここまで変更 */}
           <Typography
             variant="h6"
             noWrap
@@ -62,7 +62,7 @@ const Header = () => {
               textDecoration: 'none',
             }}
           >
-            // ここから変更 TOGO LIST // ここまで変更
+            {/* // ここから変更 TOGO LIST // ここまで変更 */}
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
@@ -100,9 +100,9 @@ const Header = () => {
               ))}
             </Menu>
           </Box>
-          // ここから変更（アイコンを変更）
+          {/* // ここから変更（アイコンを変更） */}
           <LocationOnIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
-          // ここまで変更
+          {/* // ここまで変更 */}
           <Typography
             variant="h5"
             noWrap
@@ -119,7 +119,7 @@ const Header = () => {
               textDecoration: 'none',
             }}
           >
-            // ここから変更 TOGO LIST // ここまで変更
+            {/* // ここから変更 TOGO LIST // ここまで変更 */}
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
@@ -129,11 +129,11 @@ const Header = () => {
             ))}
           </Box>
           <Box sx={{ flexGrow: 0 }}>
-            // ここから変更
+            {/* // ここから変更 */}
             <Link color="inherit" underline="none" href="/login">
               Login
             </Link>
-            // ここまで変更
+            {/* // ここまで変更 */}
             <Menu
               sx={{ mt: '45px' }}
               id="menu-appbar"
